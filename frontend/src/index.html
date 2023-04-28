@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@400;500;600;700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <div class="header__container _container">
+      <a href="" class="header__logo">
+        Logo
+      </a>
+      <nav class="header__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="" class="menu__link">Пункт меню 1</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">Пункт меню 2</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">Пункт меню 3</a>
+          </li>
+        </ul>
+      </nav>
+      <button type="submit" class="custom-large-button header__button">
+        <span id="header-button-text">Обратный звонок</span>
+      </button>
+    </div>
+  </header>
+  <main class="page">
+    <div class="page__main-block main-block">
+      <div class="main-block__container _container">
+        <div class="main-block__body">
+          <div class="main-block__title">все виды работ.</div>
+          <div class="main-block__text">премиальное качество по доступным ценам.</div>
+          <div class="main-block__form">
+            <form action="#" class="callback-form" onsubmit="event.preventDefault(); bannerSendData(new FormData(this))">
+              <input class="custom-large-button callback-form__input input-phone"
+                     name="phone" autocomplete="off" type="text" required >
+              <button class="custom-large-button callback-form__button" type="submit">Обратный звонок</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="main-block__image _ibg">
+        <img src="img/main.jpg" alt="main">
+      </div>
+    </div>
+    <section class="page__models models">
+      <div class="models__container _container">
+        <div class="models__header">
+          <div class="models__title">
+            Модели в наличии
+          </div>
+        </div>
+        <div class="models__body">
+          <div class="models__column">
+            <div class="models__item model-item">
+              <div class="model-item__title">Model WHT</div>
+              <div class="model-item__conditions model-condition">
+                <div class="model-condition__item">
+                  <div class="model-condition__icon">
+                    <img src="img/car_icon.svg" alt="available">
+                  </div>
+                  <div class="model-condition__title">10 А/М В НАЛИЧИИ</div>
+                </div>
+                <div class="model-condition__item">
+                  <div class="model-condition__icon">
+                    <img src="img/clock_icon.svg" alt="available">
+                  </div>
+                  <div class="model-condition__title">ЛИЗИНГ А/М</div>
+                </div>
+              </div>
+              <div class="model-item__img">
+                <img src="img/car1.svg" alt="car 1">
+              </div>
+              <div class="model-item__text">2.7 дизель, Common rail, 150 л.с., МКПП, Задний привод</div>
+              <div class="model-item__buttons">
+                <button type="submit" class="custom-small_button model-item__button--red">Получить спец. цену</button>
+                <button type="submit" class="custom-small_button model-item__button--white">Спец. условия по лизингу</button>
+                <button type="submit" class="custom-small_button model-item__button--white">Подобрать автомобиль</button>
+              </div>
+            </div>
+          </div>
+          <div class="models__column">
+            <div class="models__item model-item">
+              <div class="model-item__title">Model BLK</div>
+              <div class="model-item__conditions model-condition">
+                <div class="model-condition__item">
+                  <div class="model-condition__icon">
+                    <img src="img/car_icon.svg" alt="available">
+                  </div>
+                  <div class="model-condition__title">10 А/М В НАЛИЧИИ</div>
+                </div>
+                <div class="model-condition__item">
+                  <div class="model-condition__icon">
+                    <img src="img/clock_icon.svg" alt="available">
+                  </div>
+                  <div class="model-condition__title">ЛИЗИНГ А/М</div>
+                </div>
+              </div>
+              <div class="model-item__img">
+                <img src="img/car2.svg" alt="car 2">
+              </div>
+              <div class="model-item__text">2.7 дизель, Common rail, 150 л.с., МКПП, Задний привод</div>
+              <div class="model-item__buttons">
+                <button type="submit" class="custom-small_button model-item__button--red">Получить спец. цену</button>
+                <button type="submit" class="custom-small_button model-item__button--white">Спец. условия по лизингу</button>
+                <button type="submit" class="custom-small_button model-item__button--white">Подобрать автомобиль</button>
+              </div>
+            </div>
+          </div>
+          <div class="models__column">
+            <div class="models__item model-item">
+              <div class="model-item__title">Model BRN</div>
+              <div class="model-item__conditions model-condition">
+                <div class="model-condition__item">
+                  <div class="model-condition__icon">
+                    <img src="img/car_icon.svg" alt="available">
+                  </div>
+                  <div class="model-condition__title">10 А/М В НАЛИЧИИ</div>
+                </div>
+                <div class="model-condition__item">
+                  <div class="model-condition__icon">
+                    <img src="img/clock_icon.svg" alt="available">
+                  </div>
+                  <div class="model-condition__title">ЛИЗИНГ А/М</div>
+                </div>
+              </div>
+              <div class="model-item__img">
+                <img src="img/car3.svg" alt="car 3">
+              </div>
+              <div class="model-item__text">2.7 дизель, Common rail, 150 л.с., МКПП, Задний привод</div>
+              <div class="model-item__buttons">
+                <button type="submit" class="custom-small_button model-item__button--red">Получить спец. цену</button>
+                <button type="submit" class="custom-small_button model-item__button--white">Спец. условия по лизингу</button>
+                <button type="submit" class="custom-small_button model-item__button--white">Подобрать автомобиль</button>
+              </div>
+            </div>
+          </div>
+          <div class="models__column">
+            <div class="models__item model-item">
+              <div class="model-item__title">Model GRN</div>
+              <div class="model-item__conditions model-condition">
+                <div class="model-condition__item">
+                  <div class="model-condition__icon">
+                    <img src="img/car_icon.svg" alt="available">
+                  </div>
+                  <div class="model-condition__title">10 А/М В НАЛИЧИИ</div>
+                </div>
+                <div class="model-condition__item">
+                  <div class="model-condition__icon">
+                    <img src="img/clock_icon.svg" alt="available">
+                  </div>
+                  <div class="model-condition__title">ЛИЗИНГ А/М</div>
+                </div>
+              </div>
+              <div class="model-item__img">
+                <img src="img/car4.svg" alt="car 4">
+              </div>
+              <div class="model-item__text">2.7 дизель, Common rail, 150 л.с., МКПП, Задний привод</div>
+              <div class="model-item__buttons">
+                <button type="submit" class="custom-small_button model-item__button--red">Получить спец. цену</button>
+                <button type="submit" class="custom-small_button model-item__button--white">Спец. условия по лизингу</button>
+                <button type="submit" class="custom-small_button model-item__button--white">Подобрать автомобиль</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page__questions questions">
+      <div class="questions__container _container">
+        <div class="questions__header">
+          <div class="questions__title">Есть вопросы?</div>
+          <div class="questions__sub-title">Мы перезвоним вам и ответим на любой вопрос</div>
+        </div>
+        <div class="questions__body">
+          <form class="questions__form" onsubmit="event.preventDefault(); questionSendData(new FormData(this))">
+            <input id="question_name" class="custom-large-button custom-large-button__input-name" name="name" autocomplete="off" type="text" placeholder="Ваше имя">
+            <input id="question_phone" class="custom-large-button custom-large-button__input-phone input-phone" name="phone" autocomplete="off" type="text" required>
+            <button class="custom-large-button custom-large-button--red questions__button" type="submit">Обратный звонок</button>
+          </form>
+        </div>
+        <div class="questions__consent">
+          Нажимая кнопку я подтверждаю свое ознакомление с порядком обработки персональных данных со стороны КОМПАНИИ и даю свободное и осознанное согласие на их обработку, на получение информации по каналам связи, в том числе в рекламных целях. Подробно тут
+        </div>
+      </div>
+    </section>
+    <section class="page__map map">
+        <img src="img/map.jpg" alt="map">
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container _container">
+      <div class="footer__policy">Политика АО «КОМПАНИЯ» в области обработки и обеспечения безопасности персональных данных</div>
+      <div class="footer__inn">ИНН: 99999999999 ОГРН: 9999999999999</div>
+      <div class="footer__company">ООО «КОМПАНИЯ»</div>
+    </div>
+  </footer>
+</div>
+
+<div class='modal-return-call-outer'>
+  <div class='modal-return-call-inner'>
+    <div class="close-button-block">
+      <div class="close-button">
+      </div>
+    </div>
+    <div class="modal-return-call">
+      <div class="modal-return-call-errors"></div>
+      <div class="modal-return-call__title">Заголовок формы</div>
+      <div class="modal-return-call__text">Мы перезвоним вам и ответим на любой вопрос</div>
+      <div class="modal-return-call__body">
+        <form class="modal-form" onsubmit="event.preventDefault(); sendDataModal(new FormData(this))">
+          <input id="modal_name" class="custom-large-button custom-large-button__input-name" name="name" autocomplete="off" type="text" placeholder="Ваше имя">
+          <input id="modal_phone" class="custom-large-button custom-large-button__input-phone input-phone" name="phone" autocomplete="off" type="text">
+          <button type="submit" class="custom-large-button custom-large-button--red">Обратный звонок</button>
+        </form>
+      </div>
+      <div class="modal-return-call__consent">
+        Нажимая кнопку я подтверждаю свое ознакомление с порядком обработки персональных данных со стороны КОМПАНИИ и даю свободное и осознанное согласие на их обработку, на получение информации по каналам связи, в том числе в рекламных целях. Подробно тут
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='modal-success-send-outer'>
+  <div class='modal-success-send-inner'>
+    <div class="modal-success-send">
+      <div class="modal-success-send__title">Ваша Заявка успешно отправлена</div>
+      <div class="modal-success-send__text">менеджер свяжется с Вами в ближайшее время</div>
+      <div class="modal-success-send__body">
+        <button class="custom-large-button custom-large-button--red modal-success-send__button">На главную</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='modal-fail-send-outer'>
+  <div class='modal-fail-send-inner'>
+    <div class="modal-fail-send">
+      <div class="modal-fail-send__title">Ошибка при отправке</div>
+      <div class="modal-fail-send__text">попробуйте отправить заявку заново</div>
+      <div class="modal-fail-send__body">
+        <button type="submit" class="custom-large-button custom-large-button--red modal-fail-send__button">Повторить</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/imask"></script>
+<script src="script.js"></script>
+</body>
+</html>
