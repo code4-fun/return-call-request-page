@@ -509,6 +509,9 @@ body {
   width: 20px;
   height: 20px;
 }
+.close-button:hover{
+  cursor: pointer;
+}
 .close-button:before,
 .close-button:after {
   position: absolute;
